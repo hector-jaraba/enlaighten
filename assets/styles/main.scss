@@ -1,0 +1,19 @@
+@import "fonts";
+@import "breakpoints";
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+p {
+  margin-bottom: 1.2em;
+}
+
+.title-strong {
+  @apply text-5xl font-extrabold text-dark;
+  line-height: 1.2em;
+  @media (min-width: $sm) {
+    @apply text-title;
+  }
+}
