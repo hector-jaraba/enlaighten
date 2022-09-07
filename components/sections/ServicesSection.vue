@@ -1,13 +1,15 @@
 <template>
-  <section id="services" class="bg-backgroundDark lg:min-h-screen">
-    <BaseContainer class="pt-20 pb-24">
+  <section id="services" class="bg-backgroundDark">
+    <BaseContainer class="pt-12 md:pt-20 xl:pb-16">
       <div class="relative">
         <h1 class="title-strong mb-10">
           What <span class="text-primary">we offer you</span>
         </h1>
       </div>
 
-      <ul class="services flex flex-col lg:flex-row lg:flex-wrap mt-28">
+      <ul
+        class="services flex flex-col lg:flex-row lg:flex-wrap mt-20 md:mt-28"
+      >
         <li
           v-for="service in services"
           :key="service.title"
@@ -44,7 +46,7 @@ const services: ServiceItem[] = [
     ],
   },
   {
-    title: "Optimization",
+    title: "Optimisation",
     alt: "node",
     icon: "node",
     description: [

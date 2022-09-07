@@ -10,10 +10,18 @@ p {
   margin-bottom: 1.2em;
 }
 
-.title-strong {
+.hero-title-strong {
   @apply text-5xl font-extrabold text-dark;
   line-height: 1.2em;
   @media (min-width: $sm) {
     @apply text-title;
+  }
+}
+
+.title-strong {
+  @apply text-4xl font-extrabold text-dark;
+  line-height: 1.2em;
+  @media (min-width: $sm) {
+    @apply text-5xl;
   }
 }
