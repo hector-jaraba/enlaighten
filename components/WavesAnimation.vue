@@ -177,7 +177,6 @@ export default {
 
     // Monitor mouse movement events
     function onPointerMove(event) {
-      console.log(event);
       if (event.isPrimary === false) return;
       mouseX = event.clientX - windowHalfX;
     }

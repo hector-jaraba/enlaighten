@@ -2,9 +2,9 @@
   <section id="team" class="bg-backgroundDark pb-16 md:pb-36">
     <BaseContainer>
       <div class="relative">
-        <h1 class="title-strong mb-10">
+        <h2 class="title-strong mb-10">
           Meet the <span class="text-primary">team</span>
-        </h1>
+        </h2>
       </div>
 
       <ul class="team flex flex-wrap">

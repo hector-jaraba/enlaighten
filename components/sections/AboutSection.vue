@@ -3,9 +3,9 @@
     <div class="w-full gardient h-20 md:h-28"></div>
     <BaseContainer class="flex flex-col pt-4 md:pt-20 md:pb-24 lg:flex-row">
       <div class="lg:w-1/2 relative">
-        <h1 class="title-strong mb-10">
+        <h2 class="title-strong mb-10">
           Our <span class="text-primary">goal</span>
-        </h1>
+        </h2>
         <LottieAnimation
           class="animation"
           :animationData="animation"

@@ -2,7 +2,7 @@
   <section id="contact" class="bg-background">
     <BaseContainer class="pt-20 pb-24">
       <div class="relative">
-        <h1 class="title-strong mb-10">Contact us</h1>
+        <h2 class="title-strong mb-10">Contact us</h2>
       </div>
 
       <div class="flex flex-col items-center md:mt-24 md:mb-20 lg:flex-row">

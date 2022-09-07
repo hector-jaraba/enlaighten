@@ -2,9 +2,9 @@
   <section id="services" class="bg-backgroundDark">
     <BaseContainer class="pt-12 md:pt-20 xl:pb-16">
       <div class="relative">
-        <h1 class="title-strong mb-10">
+        <h2 class="title-strong mb-10">
           What <span class="text-primary">we offer you</span>
-        </h1>
+        </h2>
       </div>
 
       <ul
