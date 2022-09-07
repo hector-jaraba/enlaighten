@@ -3,7 +3,7 @@
     <figure>
       <img
         class="mx-auto"
-        :src="`/assets/icons/${service.icon}.svg`"
+        :src="`/icons/${service.icon}.svg`"
         :alt="service.alt"
       />
     </figure>

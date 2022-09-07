@@ -17,7 +17,7 @@
       </div>
     </BaseContainer>
 
-    <WavesAnimation class="absolute top-0" :top="250" />
+    <WavesAnimation class="absolute top-0 -z-10 md:z-0" :top="250" />
   </section>
 </template>
 
