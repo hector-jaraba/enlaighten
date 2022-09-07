@@ -44,7 +44,7 @@ const services: ServiceItem[] = [
     ],
   },
   {
-    title: "Optimalization",
+    title: "Optimization",
     alt: "node",
     icon: "node",
     description: [

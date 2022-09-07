@@ -38,21 +38,38 @@ const btnType = computed(() => `btn-${props.type}`);
 .btn-normal {
   @apply text-background bg-dark;
   transition: 0.2s ease;
-  &:hover {
-    @apply bg-primary font-extrabold;
+
+  @media (hover: hover) {
+    &:hover {
+      @apply bg-primary font-extrabold;
+    }
   }
 }
 
 .btn-outline {
   @apply text-dark border-2 border-dark;
   transition: 0.2s ease;
-  &:hover {
-    @apply font-extrabold text-background bg-primary;
+  @media (hover: hover) {
+    &:hover {
+      @apply font-extrabold text-background bg-primary;
+    }
   }
 }
 
 .btn-big-action {
   @apply py-4 px-14 text-xl bg-primary text-background rounded-full  font-extrabold;
+  transition: 0.3s linear;
+  border: 2px solid transparent;
+
+  @media (hover: hover) {
+    &:hover {
+      @apply font-extrabold text-dark bg-transparent border-2 border-dark;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    @apply py-5 px-7 text-2xl;
+  }
 
   @media (min-width: 1280px) {
     @apply py-7 px-28 text-4xl;

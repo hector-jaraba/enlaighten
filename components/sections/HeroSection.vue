@@ -1,7 +1,7 @@
 <template>
   <section class="w-screen h-screen relative">
     <BaseContainer>
-      <div class="mt-28 w-full sm:w-title">
+      <div class="mt-20 md:mt-28 w-full sm:w-title">
         <h1 class="title-strong">
           Bringing the <span class="text-primary">spotlight</span> to data
         </h1>

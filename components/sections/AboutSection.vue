@@ -45,20 +45,25 @@
 import animation from "@/assets/animation.json";
 </script>
 
-<style scoped>
+<style lang="postcss" scoped>
 .gardient {
   background: linear-gradient(180deg, #ffff 0%, #f5f5f5 50%);
   mix-blend-mode: normal;
 }
 
 .description {
-  @apply text-2xl font-light text-gray lg:w-1/2 mt-4;
+  @apply text-xl mt-20 lg:text-2xl font-light text-gray lg:w-1/2 lg:mt-4;
   line-height: 1.8em;
 }
 
 .animation {
-  max-width: 350px;
-  margin-left: 75px;
-  margin-top: 150px;
+  max-width: 300px;
+  margin: 0 auto;
+
+  @media (min-width: 1024px) {
+    max-width: 350px;
+    margin-left: 75px;
+    margin-top: 150px;
+  }
 }
 </style>
