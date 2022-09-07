@@ -1,8 +1,8 @@
 <template>
   <section id="about" class="bg-backgroundDark lg:min-h-screen">
     <div class="w-full gardient h-28"></div>
-    <BaseContainer class="flex pt-20 pb-24">
-      <div class="w-1/2 relative">
+    <BaseContainer class="flex flex-col pt-20 pb-24 lg:flex-row">
+      <div class="lg:w-1/2 relative">
         <h1 class="title-strong mb-10">
           Our <span class="text-primary">goal</span>
         </h1>
@@ -52,7 +52,7 @@ import animation from "@/assets/animation.json";
 }
 
 .description {
-  @apply text-2xl font-light text-gray w-1/2 mt-4;
+  @apply text-2xl font-light text-gray lg:w-1/2 mt-4;
   line-height: 1.8em;
 }
 

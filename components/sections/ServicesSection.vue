@@ -1,14 +1,18 @@
 <template>
   <section id="services" class="bg-backgroundDark lg:min-h-screen">
     <BaseContainer class="pt-20 pb-24">
-      <div class="w-1/2 relative">
+      <div class="relative">
         <h1 class="title-strong mb-10">
           What <span class="text-primary">we offer you</span>
         </h1>
       </div>
 
-      <ul class="services flex flex-wrap mt-28">
-        <li v-for="service in services" :key="service.title" class="w-1/3 px-6">
+      <ul class="services flex flex-col lg:flex-row lg:flex-wrap mt-28">
+        <li
+          v-for="service in services"
+          :key="service.title"
+          class="mb-16 lg:w-1/3 px-6 lg:px-3 xl:px-6"
+        >
           <BaseService class="h-full" :service="service" />
         </li>
       </ul>

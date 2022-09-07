@@ -31,20 +31,28 @@ const btnType = computed(() => `btn-${props.type}`);
 
 <style lang="postcss" scoped>
 .btn {
-  @apply py-2 px-8 rounded-3xl text-lg text-center cursor-pointer block;
+  @apply relative py-2 px-8 rounded-3xl text-lg text-center cursor-pointer block overflow-hidden;
   min-width: 200px;
 }
 
 .btn-normal {
-  @apply bg-dark text-background;
+  @apply text-background bg-dark;
+  transition: 0.2s ease;
+  &:hover {
+    @apply bg-primary font-extrabold;
+  }
 }
 
 .btn-outline {
   @apply text-dark border-2 border-dark;
+  transition: 0.2s ease;
+  &:hover {
+    @apply font-extrabold text-background bg-primary;
+  }
 }
 
 .btn-big-action {
-  @apply py-4 px-20 text-3xl bg-primary text-background rounded-full  font-extrabold;
+  @apply py-4 px-14 text-xl bg-primary text-background rounded-full  font-extrabold;
 
   @media (min-width: 1280px) {
     @apply py-7 px-28 text-4xl;

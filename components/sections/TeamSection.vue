@@ -1,15 +1,15 @@
 <template>
   <section id="team" class="bg-backgroundDark pb-36">
     <BaseContainer class="pt-20 pb-24">
-      <div class="w-1/2 relative">
+      <div class="relative">
         <h1 class="title-strong mb-10">
           Meet the <span class="text-primary">team</span>
         </h1>
       </div>
 
-      <ul class="team flex flex-wrap mt-28">
+      <ul class="team flex flex-wrap mt-20">
         <li
-          class="w-1/3 flex justify-center"
+          class="mx-auto sm:w-1/2 mt-16 md:w-1/3 flex justify-center"
           v-for="member in members"
           :key="member.id"
         >

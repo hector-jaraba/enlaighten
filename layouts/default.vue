@@ -1,8 +1,8 @@
 <template>
   <main>
-    <div class="container mx-auto pt-8 px-12 relative z-50">
+    <BaseContainer>
       <BaseHeader />
-    </div>
+    </BaseContainer>
 
     <slot />
   </main>
