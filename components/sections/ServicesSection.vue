@@ -35,9 +35,10 @@
               scope. We are able to adapt swiftly.
             </p>
           </div>
-          <NuxtImg
+          <img
             class="-z-10 hidden sm:block lg:left-36 xl:left-96 absolute"
             src="/img/lamp.svg"
+            alt=""
           />
         </div>
       </div>
@@ -51,7 +52,7 @@ import { ServiceItem } from "~~/types";
 const services: ServiceItem[] = [
   {
     title: "Data science",
-    alt: "brain",
+    alt: "",
     icon: "brain",
     description: [
       "Data science uses advanced analytics techniques and scientific principles to extract valuable information from data for business decision-making, strategic planning and other uses.",
@@ -61,7 +62,7 @@ const services: ServiceItem[] = [
   },
   {
     title: "Artificial Intelligence",
-    alt: "robot",
+    alt: "",
     icon: "robot",
     description: [
       "AI focuses on finding patterns in noisy and complex data. It does so by generalizing from known training examples. ",
@@ -70,7 +71,7 @@ const services: ServiceItem[] = [
   },
   {
     title: "Optimisation",
-    alt: "node",
+    alt: "",
     icon: "node",
     description: [
       "Thanks to ever-expanding computational resources it is now possible to model and simulate complex physical or societal processes. ",

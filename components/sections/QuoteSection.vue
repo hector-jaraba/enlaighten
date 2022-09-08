@@ -2,7 +2,7 @@
   <section class="bg-primary text-background pt-8 sm:pt-20 pb-10 sm:pb-0">
     <BaseContainer class="flex w-full">
       <div class="w-4/12 flex flex-col">
-        <NuxtPicture
+        <img
           src="/img/cath.png"
           class="hidden sm:block lg:mx-auto mt-auto w-80"
           alt="Cathlene Van Moorleghem"
@@ -21,7 +21,7 @@
           </p>
           <span class="block font-normal">Enlaighten your business!</span>
         </div>
-        <NuxtImg class="ml-auto sm:mr-10 mt-4" src="/icons/quote.svg" alt="" />
+        <img class="ml-auto sm:mr-10 mt-4" src="/icons/quote.svg" alt="" />
 
         <div class="mt-16 mb-8">
           <span class="font-bold block">Cathlene Van Moorleghem</span>
