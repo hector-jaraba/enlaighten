@@ -6,7 +6,7 @@
       </div>
 
       <div class="flex flex-col items-center md:mt-24 md:mb-20 lg:flex-row">
-        <div class="font-thin lg:w-1/2">
+        <div class="font-light text-gray lg:w-1/2">
           <span class="text-3xl lg:text-4xl block contact-engage">
             Need a data whisperer to enlaighten you?
           </span>

@@ -1,9 +1,9 @@
 <template>
   <nav class="flex items-center justify-between flex-wrap w-full">
-    <div class="flex items-center flex-shrink-0 text-white mr-6">
-      <figure class="flex items-center flex-shrink-0 w-48 sm:w-auto">
-        <a href="/">
-          <img class="" src="/img/Logo.svg" alt="Logo" />
+    <div class="flex items-center flex-shrink-0 text-white">
+      <figure class="flex items-center flex-shrink-0 w-60 md:w-72 lg:w-80">
+        <a href="/" class="w-full">
+          <img class="min-w-full" src="/img/Logo.svg" alt="Logo" />
         </a>
       </figure>
     </div>
