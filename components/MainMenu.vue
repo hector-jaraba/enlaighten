@@ -41,6 +41,14 @@
         <a href="#contact">Contact</a>
       </li>
     </ul>
+
+    <form v-if="false">
+      <label for="locale-select">{{ $t("language") }}: </label>
+      <select id="locale-select" v-model="$i18n.locale">
+        <option value="en">en</option>
+        <option value="nl">nl</option>
+      </select>
+    </form>
   </nav>
 </template>
 

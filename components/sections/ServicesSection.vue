@@ -18,6 +18,29 @@
           <BaseService class="h-full" :service="service" />
         </li>
       </ul>
+      <div class="text-xl lg:text-2xl pt-10 md:pb-40">
+        <h4 class="font-extrabold">What makes us different?</h4>
+
+        <div class="flex relative">
+          <div class="font-light leading-10 mt-6 sm:w-7/12">
+            <p>
+              Anchored in industry with a sound expertise in academia, the main
+              assets are our people. The expertise of our specialists covers a
+              vast range of up-to-date and practical digital and data
+              technologies.
+            </p>
+            <p>
+              Enlaighten brings a flat corporate structure to deep learning. We
+              are well aware of the realities of projects and their changing
+              scope. We are able to adapt swiftly.
+            </p>
+          </div>
+          <NuxtImg
+            class="-z-10 hidden sm:block lg:left-36 xl:left-96 absolute"
+            src="/img/lamp.svg"
+          />
+        </div>
+      </div>
     </BaseContainer>
   </section>
 </template>

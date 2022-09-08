@@ -3,6 +3,7 @@
     <HeroSection />
     <AboutSection />
     <ServicesSection />
+    <QuoteSection />
     <TeamSection />
     <ContactSection />
     <FooterSection />
@@ -15,6 +16,7 @@ import ServicesSection from "@/components/sections/ServicesSection.vue";
 import TeamSection from "@/components/sections/TeamSection.vue";
 import ContactSection from "@/components/sections/ContactSection.vue";
 import FooterSection from "@/components/sections/FooterSection.vue";
+import QuoteSection from "./components/sections/QuoteSection.vue";
 const title = ref("Enlaighten");
 const description = ref(
   "We assist you turning your data into new services and producs."
