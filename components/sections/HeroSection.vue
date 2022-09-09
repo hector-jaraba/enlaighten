@@ -2,17 +2,21 @@
   <section class="w-screen h-screen relative">
     <BaseContainer>
       <div class="mt-20 md:mt-28 w-full sm:w-title">
-        <h1 class="hero-title-strong">
-          Bringing the <span class="text-primary">spotlight</span> to data
-        </h1>
+        <h1 class="hero-title-strong" v-html="$t('hero_slogan_label')"></h1>
         <h3 class="text-2xl text-gray font-light ml-1 mt-4">
-          We assist you turning your data into new services and producs
+          {{ $t("hero_subtitle_label") }}
         </h3>
         <div class="flex flex-col mt-8 sm:flex-row">
-          <LinkButton href="#about" :type="outline"> Discover more </LinkButton>
-          <LinkButton href="#contact" class="mt-4 sm:ml-8 sm:mt-0">
-            Contact us
-          </LinkButton>
+          <LinkButton
+            href="#about"
+            :type="outline"
+            v-text="$t('hero_discoverMore_btn')"
+          />
+          <LinkButton
+            href="#contact"
+            class="mt-4 sm:ml-8 sm:mt-0"
+            v-text="$t('hero_contactUs_btn')"
+          />
         </div>
       </div>
     </BaseContainer>

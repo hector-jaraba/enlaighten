@@ -10,13 +10,13 @@ export default defineNuxtConfig({
   modules: ["@nuxtjs/tailwindcss", "@nuxt/image-edge"],
   css: ["@/assets/styles/main.scss"],
   vite: {
-    plugins: [
-      VueI18nVitePlugin({
-        include: [
-          resolve(dirname(fileURLToPath(import.meta.url)), "./locales/*.json"),
-        ],
-      }),
-    ],
+    // plugins: [
+    //   VueI18nVitePlugin({
+    //     include: [
+    //       resolve(dirname(fileURLToPath(import.meta.url)), "./locales/*.json"),
+    //     ],
+    //   }),
+    // ],
     css: {
       preprocessorOptions: {
         scss: {

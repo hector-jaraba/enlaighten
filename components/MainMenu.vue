@@ -22,33 +22,26 @@
         </svg>
       </button>
     </div>
-    <ul
-      class="fixed hidden top-0 left-0 h-screen py-40 w-full text-4xl pl-7 lg:p-0 lg:text-base lg:h-auto lg:relative lg:flex lg:items-center lg:w-auto"
-    >
-      <li class="mx-4 my-8">
-        <a href="/">Home</a>
-      </li>
-      <li class="mx-4 my-8">
-        <a href="#about">About us</a>
-      </li>
-      <li class="mx-4 my-8">
-        <a href="#services">Services</a>
-      </li>
-      <li class="mx-4 my-8">
-        <a href="#team">Team</a>
-      </li>
-      <li class="mx-4 my-8">
-        <a href="#contact">Contact</a>
-      </li>
-    </ul>
-
-    <form v-if="false">
-      <label for="locale-select">{{ $t("language") }}: </label>
-      <select id="locale-select" v-model="$i18n.locale">
-        <option value="en">en</option>
-        <option value="nl">nl</option>
-      </select>
-    </form>
+    <div class="hidden lg:flex items-center">
+      <ul class="p-0 text-base h-auto relative flex items-center w-auto">
+        <li class="mx-4 my-8">
+          <a href="/">{{ $t("menu_home_label") }}</a>
+        </li>
+        <li class="mx-4 my-8">
+          <a href="#about">{{ $t("menu_about_label") }}</a>
+        </li>
+        <li class="mx-4 my-8">
+          <a href="#services">{{ $t("menu_services_label") }}</a>
+        </li>
+        <li class="mx-4 my-8">
+          <a href="#team">{{ $t("menu_team_label") }}</a>
+        </li>
+        <li class="mx-4 my-8">
+          <a href="#contact">{{ $t("menu_contact_label") }}</a>
+        </li>
+      </ul>
+      <LanguageSelector class="hidden ml-6 lg:flex" />
+    </div>
   </nav>
 </template>
 

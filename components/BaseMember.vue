@@ -5,7 +5,10 @@
     </figure>
     <div class="mt-3">
       <h3 class="font-extrabold text-2xl">{{ member.name }}</h3>
-      <h4 class="font-light text-xl">{{ member.position }}</h4>
+      <h4 class="font-light text-xl">{{ $t(member.position) }}</h4>
+      <h5 class="font-light" v-if="member.description">
+        {{ $t(member.description) }}
+      </h5>
     </div>
   </div>
 </template>

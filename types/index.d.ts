@@ -2,7 +2,7 @@ export interface ServiceItem {
   icon: string;
   alt: string;
   title: string;
-  description: string[];
+  description: string;
 }
 
 export interface Member {
@@ -11,6 +11,7 @@ export interface Member {
   alt: string;
   name: string;
   position: string;
+  description?: string;
 }
 
 export enum BTN_TYPE {

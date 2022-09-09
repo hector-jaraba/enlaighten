@@ -8,11 +8,9 @@
       />
     </figure>
     <h3 class="text-2xl font-extrabold text-center mt-6 mb-9">
-      {{ service.title }}
+      {{ $t(service.title) }}
     </h3>
-    <div class="text-gray font-light">
-      <p v-for="paragraph in service.description" v-text="paragraph" />
-    </div>
+    <div class="text-gray font-light" v-html="$t(service.description)"></div>
   </article>
 </template>
 

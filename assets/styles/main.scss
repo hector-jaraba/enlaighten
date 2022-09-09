@@ -16,6 +16,9 @@ p {
   @media (min-width: $sm) {
     @apply text-title;
   }
+  span {
+    @apply text-primary;
+  }
 }
 
 .title-strong {
@@ -23,5 +26,8 @@ p {
   line-height: 1.2em;
   @media (min-width: $sm) {
     @apply text-5xl;
+  }
+  span {
+    @apply text-primary;
   }
 }

@@ -30,21 +30,28 @@
     </button>
     <ul class="text-2xl">
       <li class="mx-4 my-8">
-        <a @click="handleClose" href="/">Home</a>
+        <a @click="handleClose" href="/">{{ $t("menu_home_label") }}</a>
       </li>
       <li class="mx-4 my-8">
-        <a @click="handleClose" href="#about">About us</a>
+        <a @click="handleClose" href="#about">{{ $t("menu_about_label") }}</a>
       </li>
       <li class="mx-4 my-8">
-        <a @click="handleClose" href="#services">Services</a>
+        <a @click="handleClose" href="#services">
+          {{ $t("menu_services_label") }}
+        </a>
       </li>
       <li class="mx-4 my-8">
-        <a @click="handleClose" href="#team">Team</a>
+        <a @click="handleClose" href="#team">
+          {{ $t("menu_team_label") }}
+        </a>
       </li>
       <li class="mx-4 my-8">
-        <a @click="handleClose" href="#contact">Contact</a>
+        <a @click="handleClose" href="#contact">
+          {{ $t("menu_contact_label") }}
+        </a>
       </li>
     </ul>
+    <LanguageSelector class="mt-12 ml-8" />
   </div>
 </template>
 

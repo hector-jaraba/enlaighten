@@ -17,13 +17,17 @@ import TeamSection from "@/components/sections/TeamSection.vue";
 import ContactSection from "@/components/sections/ContactSection.vue";
 import FooterSection from "@/components/sections/FooterSection.vue";
 import QuoteSection from "./components/sections/QuoteSection.vue";
+import { useI18n } from "vue-i18n";
 const title = ref("Enlaighten");
 const description = ref(
   "We assist you turning your data into new services and producs."
 );
 
+const { locale } = useI18n();
+
 useHead({
   title,
+  htmlAttrs: [{ lang: locale }],
   meta: [
     {
       name: "description",

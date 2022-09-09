@@ -3,9 +3,7 @@
     <div class="w-full gardient h-20 md:h-28"></div>
     <BaseContainer class="flex flex-col pt-4 md:pt-20 md:pb-24 lg:flex-row">
       <div class="lg:w-1/2 relative">
-        <h2 class="title-strong mb-10">
-          Our <span class="text-primary">goal</span>
-        </h2>
+        <h2 class="title-strong mb-10" v-html="$t('about_page_title')" />
         <LottieAnimation
           class="animation"
           :animationData="animation"
@@ -14,29 +12,7 @@
         />
       </div>
 
-      <div class="description">
-        <p>
-          Digitilisation is rapidly transforming our society and businesses into
-          a data-driven enterprise.
-        </p>
-        <p>
-          Unlocking the potential of these vast quantities of collected data is
-          creating exciting new opportunities. But it is also poses new
-          challenges as it requires new areas and levels of expertise.
-        </p>
-        <p>
-          This is where Enlaighten can help you reach your goals and ambitions.
-          The expertise of our specialists covers a vast range of up-to-date
-          digital and data technologies.
-        </p>
-        <p>
-          You can outsource your data-related project to Enlaighten, or
-          complement your own efforts by addding us as consultant. In addition,
-          we also offer in-house training in important data-science topics to
-          boost the skills of your teams.
-        </p>
-        <p>We assist you turning your data into new services and products.</p>
-      </div>
+      <div class="description" v-html="$t('about_description_text')"></div>
     </BaseContainer>
   </section>
 </template>
@@ -54,6 +30,10 @@ import animation from "@/assets/animation.json";
 .description {
   @apply text-xl mt-20 lg:text-2xl font-light text-gray lg:w-1/2 lg:mt-4;
   line-height: 1.8em;
+}
+
+.description a {
+  @apply text-primary;
 }
 
 .animation {
