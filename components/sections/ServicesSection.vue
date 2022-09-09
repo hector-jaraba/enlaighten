@@ -24,7 +24,7 @@
             class="font-light leading-10 mt-6 sm:w-7/12"
             v-html="$t('services_different_text')"
           ></div>
-          <NuxtImg
+          <img
             class="-z-10 hidden sm:block lg:left-36 xl:left-96 absolute"
             src="/img/lamp.svg"
             alt=""
