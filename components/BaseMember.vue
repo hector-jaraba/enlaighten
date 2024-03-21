@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="w-60">
     <figure class="picture">
       <img :src="`/img/${member.image}.jpg`" :alt="member.alt" />
     </figure>

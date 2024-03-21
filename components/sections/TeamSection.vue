@@ -32,7 +32,7 @@ const members: Member[] = [
   {
     id: 1,
     alt: "Bernhard profile picture",
-    image: "bernhard",
+    image: "bernhard-profile",
     name: "Bernhard",
     position: "team_dataScience_label",
     description: "team_secondDescription_label",

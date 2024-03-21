@@ -7,6 +7,11 @@ import VueI18nVitePlugin from "@intlify/unplugin-vue-i18n/vite";
 export default defineNuxtConfig({
   target: "static",
   ssr: false,
+  nitro: {
+    prerender: {
+      routes: ["/"],
+    },
+  },
   modules: ["@nuxtjs/tailwindcss", "@nuxt/image-edge"],
   css: ["@/assets/styles/main.scss"],
   vite: {
