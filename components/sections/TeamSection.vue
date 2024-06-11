@@ -5,9 +5,9 @@
         <h2 class="title-strong mb-10" v-html="$t('team_page_title')" />
       </div>
 
-      <ul class="team flex flex-wrap">
+      <ul class="team grid sm:grid-cols-2 lg:grid-cols-3 gap-9">
         <li
-          class="mx-auto sm:w-1/2 mt-16 md:w-1/2 lg:w-1/4 flex justify-center"
+          class="mx-auto w-full flex justify-center"
           v-for="member in members"
           :key="member.id"
         >
@@ -39,6 +39,14 @@ const members: Member[] = [
   },
   {
     id: 2,
+    alt: "Reginald profile picture",
+    image: "reginald",
+    name: "Reginald",
+    position: "team_backend_label",
+    description: "team_backendDescription_label",
+  },
+  {
+    id: 3,
     alt: "Hector profile picture",
     image: "hector",
     name: "Héctor",
@@ -46,7 +54,7 @@ const members: Member[] = [
     description: "team_thirdDescription_label",
   },
   {
-    id: 3,
+    id: 4,
     alt: "Cathlene profile picture",
     image: "cathlene",
     name: "Cathlene",

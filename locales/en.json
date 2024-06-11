@@ -24,6 +24,8 @@
   "team_page_title": "Meet <span>the team</span>",
   "team_machineLearning_label": "(PhD), senior expert in AI",
   "team_firstDescription_label": "and machine learning",
+  "team_backend_label": "Senior backend developer",
+  "team_backendDescription_label": "system integrator",
   "team_dataScience_label": "Data scientist specialised",
   "team_secondDescription_label": "in language processing and time series",
   "team_seniorFrontend_label": "Senior frontend engineer",
